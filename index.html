@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        img {
+            height: auto;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav justify-content-center  ">
+      <a class="nav-link active" href="#" aria-current="page">Active link</a>
+      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link disabled" href="#">About</a>
+    </nav>
+    <button class="btn btn-primary btn-lg">Click here!</button>
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="assets/image/one.JPG" alt="First slide" class="w-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/image/two.JPG" alt="Second slide" class="w-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/image/three.JPG" alt="Third slide" class="w-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="dropdown open">
+        <a class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                    Dropdown Anchor
+                </a>
+        <div class="dropdown-menu" aria-labelledby="triggerId">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item disabled" href="#">Disabled action</a>
+        </div>
+    </div>
+    <div class="container border">
+        <div class="row align-items-start">
+          <div class="col border">
+            One of three columns
+          </div>
+          <div class="col border">
+            One of three columns
+          </div>
+          <div class="col border">
+            One of three columns
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col border">
+            One of three columns
+          </div>
+          <div class="col border">
+            One of three columns
+          </div>
+          <div class="col border">
+            One of three columns
+          </div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col border">
+            One of three columns
+          </div>
+          <div class="col border">
+            One of three columns
+          </div>
+          <div class="col border">
+            One of three columns
+          </div>
+        </div>
+      </div>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
